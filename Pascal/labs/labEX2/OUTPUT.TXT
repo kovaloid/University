@@ -1,0 +1,12 @@
+Procedure: top
+Strings: 8
+------------------------
+Sofa            6500
+Table           7300
+Chair           3500
+Pen               60
+Pencil            55
+Eraser            25
+Sharpener         30
+Recorder        8400
+------------------------

@@ -1,0 +1,111 @@
+#!/bin/bash
+
+#FILE=/home/koval/text
+FILE=$1
+DATA=$(cat $FILE)
+SMALL=(a b c d e f g h i j k l m n o p q r s t u v w x y z)
+LARGE=(A B C D E F G H I J K L M N O P Q R S T U V W X Y Z)
+NUM=(0 1 2 3 4 5 6 7 8 9)
+PUNCT=(. ,)
+ALL=$(cat $FILE | wc -c)
+CHECK=""
+COUNT=0
+PERCENT1=0
+PERCENT2=0
+NOTUSE=()
+STR=""
+
+
+counter()
+{
+  let "PERCENT1 = COUNT * 100"
+  let "PERCENT1 = PERCENT1 / ALL"
+  let "PERCENT2 = COUNT * 100"
+  let "PERCENT2 = PERCENT2 % ALL"
+  let "PERCENT2 = PERCENT2 * 10"
+  let "PERCENT2 = PERCENT2 / ALL"
+}
+
+
+  echo "ANALYSIS OF TEXT IN FILE $FILE :"
+  echo "ALL: $ALL"
+
+  COUNT=$(cat $FILE | wc -l)
+  counter
+  echo "ENTERS: $COUNT   -   $PERCENT1.$PERCENT2%"
+
+  COUNT=$(grep -o " " <<<"$DATA" | wc -l)
+  counter
+  echo "SPACES: $COUNT   -   $PERCENT1.$PERCENT2%"
+
+  COUNT=$(grep -o "[0-9]" <<<"$DATA" | wc -l)
+  counter
+  echo "NUMBERS: $COUNT   -   $PERCENT1.$PERCENT2%"
+
+  COUNT=$(grep -o "[\.|\,]" <<<"$DATA" | wc -l)
+  counter
+  echo "PUNCTS: $COUNT   -   $PERCENT1.$PERCENT2%"
+
+  echo "________________________________"
+
+  j=0
+  i=0
+  until [ "$CHECK" = "Z" ]
+  do
+	CHECK="${LARGE[$i]}"
+	COUNT=$(grep -o "[${SMALL[$i]}|$CHECK]" <<<"$DATA" | wc -l)
+	counter
+	if [ $COUNT -ne 0 ]
+	then
+		echo "$CHECK: $COUNT   -   $PERCENT1.$PERCENT2%"
+	else
+		NOTUSE[$j]=$CHECK
+		let "j++"
+	fi
+	let "i++"
+  done
+
+  i=0
+  until [ "$CHECK" = "9" ]
+  do
+        CHECK="${NUM[$i]}"
+        COUNT=$(grep -o "$CHECK" <<<"$DATA" | wc -l)
+    	counter
+	if [ $COUNT -ne 0 ]
+	then
+        	echo "$CHECK: $COUNT   -   $PERCENT1.$PERCENT2%"
+	else
+		NOTUSE[$j]=$CHECK
+		let "j++"
+	fi
+        let "i++"
+  done
+
+  for i in 0 1
+  do
+	case $i in
+		0) CHECK="\.";;
+	1) CHECK="\,";;
+	esac
+	COUNT=$(grep -o "$CHECK" <<<"$DATA" | wc -l)
+        counter
+        if [ $COUNT -ne 0 ]
+        then
+                echo "${PUNCT[$i]}: $COUNT   -   $PERCENT1.$PERCENT2%"
+        else
+                NOTUSE[$j]=${PUNCT[$i]}
+                let "j++"
+        fi
+  done
+
+  echo "________________________________"
+
+  i=0
+  until [ $i = $j ]
+  do
+	STR="$STR ${NOTUSE[$i]}"
+	#echo "${NOTUSE[$i]}"
+	let "i++"
+  done
+
+  echo "NOT USED: $j   -  $STR"

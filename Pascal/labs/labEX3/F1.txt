@@ -1,0 +1,12 @@
+04 Ivanov      
+07 Kovalev     
+09 Popov       
+10 Sidorov     
+03 Vinogradov  
+01 Vasilev     
+06 Svetlakov   
+11 Kozlov      
+05 Petrochenko 
+08 Strelnikov  
+12 Lebedev     
+02 Kolesnikova 

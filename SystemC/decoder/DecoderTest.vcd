@@ -1,0 +1,102 @@
+$date
+     Dec 07, 2013       18:05:28
+$end
+
+$version
+              SystemC 2.3.0-ASI --- Dec  7 2013 00:07:34
+$end
+
+$timescale
+     1 ps
+$end
+
+$scope module SystemC $end
+$var wire    1  aaa  clk       $end
+$var wire    1  aab  enable       $end
+$var wire    3  aac  input [2:0]  $end
+$var wire    8  aaaad  output [7:0]  $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+1aaa
+0aab
+b0 aac
+b0 aaaad
+$end
+
+#1
+1aab
+
+#3
+0aaa
+
+#5
+1aaa
+
+#8
+0aaa
+
+#10
+1aaa
+b1 aac
+b10 aaaad
+
+#13
+0aaa
+
+#15
+1aaa
+b10 aac
+b100 aaaad
+
+#18
+0aaa
+
+#20
+1aaa
+b11 aac
+b1000 aaaad
+
+#23
+0aaa
+
+#25
+1aaa
+b100 aac
+b10000 aaaad
+
+#28
+0aaa
+
+#30
+1aaa
+b101 aac
+b100000 aaaad
+
+#33
+0aaa
+
+#35
+1aaa
+b110 aac
+b1000000 aaaad
+
+#38
+0aaa
+
+#40
+1aaa
+b111 aac
+b10000000 aaaad
+
+#43
+0aaa
+
+#45
+1aaa
+

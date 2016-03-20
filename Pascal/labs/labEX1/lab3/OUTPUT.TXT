@@ -1,0 +1,19 @@
+Name            Price
+---------------------
+Sofa            6500
+Table           7300
+Chair           3500
+Pen             60
+Pencil          55
+Eraser          25
+Sharpener       30
+Recorder        8400
+Player          4750
+Case            250
+
+
+The most expensive items:
+-------------------------
+1. Recorder       8400 rub.
+2. Table          7300 rub.
+3. Sofa           6500 rub.

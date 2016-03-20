@@ -1,0 +1,30 @@
+4 Ivanov      
+7 Kovalev     
+9 Popov       
+10 Sidorov     
+3 Vinogradov  
+1 Vasilev     
+6 Svetlakov   
+11 Kozlov      
+5 Petrochenko 
+8 Strelnikov  
+12 Lebedev     
+2 Kolesnikova 
+
+
+
+12 Lebedev     
+11 Kozlov      
+10 Sidorov     
+9 Popov       
+8 Strelnikov  
+7 Kovalev     
+6 Svetlakov   
+5 Petrochenko 
+4 Ivanov      
+3 Vinogradov  
+2 Kolesnikova 
+1 Vasilev     
+
+
+

@@ -1,0 +1,76 @@
+ s === Потомок породился
+ s === SON PARAM: pid = 5620, ppid = 5619
+ s === Потомок завершается
+  PID TTY      STAT   TIME COMMAND
+ 1749 ?        Ssl    0:00 gnome-session --session=ubuntu
+ 1789 ?        Ss     0:00  \_ /usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-session gnome-session --session=ubuntu
+ 1803 ?        Sl     0:15  \_ /usr/lib/gnome-settings-daemon/gnome-settings-daemon
+ 1831 ?        S      0:06  |   \_ syndaemon -i 2.0 -K -R -t
+ 1820 ?        Sl     3:11  \_ compiz
+ 1974 ?        Ssl    0:07  |   \_ /usr/bin/gtk-window-decorator
+ 3316 ?        Ssl    0:28  |   \_ gnome-terminal
+ 3322 ?        S      0:00  |       \_ gnome-pty-helper
+ 3323 pts/0    Ss     0:01  |       \_ bash
+ 5619 pts/0    S+     0:00  |           \_ ./father3
+ 5620 pts/0    Z+     0:00  |               \_ [son3] <defunct>
+ 5621 pts/0    R+     0:00  |               \_ ps xf
+ 1842 ?        Sl     0:16  \_ nm-applet
+ 1843 ?        Sl     0:00  \_ /usr/lib/gnome-settings-daemon/gnome-fallback-mount-helper
+ 1844 ?        Sl     1:20  \_ nautilus -n
+ 1848 ?        Sl     0:00  \_ /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+ 1850 ?        Sl     0:00  \_ bluetooth-applet
+ 1978 ?        Sl     0:00  \_ /usr/lib/gnome-disk-utility/gdu-notification-daemon
+ 1983 ?        Sl     0:00  \_ telepathy-indicator
+ 1998 ?        Sl     0:00  \_ zeitgeist-datahub
+ 1999 ?        Sl     0:02  \_ gnome-screensaver
+ 2116 ?        Sl     0:01  \_ update-notifier
+ 2383 ?        Sl     0:00  \_ /usr/lib/deja-dup/deja-dup/deja-dup-monitor
+ 5249 ?        Sl     0:18 /usr/bin/python /usr/share/oneconf/oneconf-service
+ 4899 ?        Sl     1:00 /usr/lib/firefox/firefox
+ 3618 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-http --spawner :1.6 /org/gtk/gvfs/exec_spaw/2
+ 3399 ?        Sl     0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+ 2219 ?        Sl     0:00 /usr/lib/dconf/dconf-service
+ 2216 ?        Sl     0:01 /usr/bin/python /usr/lib/unity-scope-video-remote/unity-scope-video-remote
+ 2209 ?        Sl     0:01 /usr/lib/notify-osd/notify-osd
+ 2207 ?        SNl    0:26 /usr/bin/python /usr/bin/update-manager --no-focus-on-map
+ 2194 ?        Sl     0:00 /usr/lib/unity-lens-music/unity-musicstore-daemon
+ 2145 ?        Sl     0:01 /usr/bin/python /usr/lib/unity-lens-video/unity-lens-video
+ 2143 ?        Sl     0:00 /usr/lib/unity-lens-music/unity-music-daemon
+ 2141 ?        Sl     0:01 /usr/lib/unity-lens-files/unity-files-daemon
+ 2139 ?        Sl     0:01 /usr/lib/unity-lens-applications/unity-applications-daemon
+ 2013 ?        Sl     0:01 /usr/lib/zeitgeist/zeitgeist-fts
+ 2021 ?        S      0:00  \_ /bin/cat
+ 2005 ?        Sl     0:01 /usr/bin/zeitgeist-daemon
+ 1994 ?        Sl     0:00 /usr/lib/gnome-online-accounts/goa-daemon
+ 1989 ?        Sl     0:01 /usr/lib/telepathy/mission-control-5
+ 1964 ?        Sl     0:01 /usr/lib/ubuntu-geoip/ubuntu-geoip-provider
+ 1954 ?        S      0:00 /usr/lib/geoclue/geoclue-master
+ 1921 ?        Sl     0:00 /usr/lib/indicator-session/indicator-session-service
+ 1919 ?        Sl     0:00 /usr/lib/indicator-datetime/indicator-datetime-service
+ 1918 ?        Sl     0:00 /usr/lib/indicator-messages/indicator-messages-service
+ 1915 ?        Sl     0:02 /usr/lib/indicator-application/indicator-application-service
+ 1913 ?        Sl     0:00 /usr/lib/indicator-sound/indicator-sound-service
+ 1911 ?        Sl     0:00 /usr/lib/indicator-printers/indicator-printers-service
+ 1896 ?        Sl     0:41 /usr/lib/indicator-appmenu/hud-service
+ 1894 ?        Sl     0:59 /usr/lib/unity/unity-panel-service
+ 1884 ?        Sl     0:10 /usr/lib/bamf/bamfdaemon
+ 1882 ?        S      0:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.6 /org/gtk/gvfs/exec_spaw/1
+ 1876 ?        S      0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.6 /org/gtk/gvfs/exec_spaw/0
+ 1870 ?        Sl     0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+ 1868 ?        S      0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+ 1857 ?        S      0:00 /usr/lib/gvfs/gvfs-gdu-volume-monitor
+ 1838 ?        S      0:00 /usr/lib/gvfs/gvfsd-metadata
+ 1836 ?        S<l    0:00 /usr/bin/pulseaudio --start --log-target=syslog
+ 1841 ?        S      0:00  \_ /usr/lib/pulseaudio/pulse/gconf-helper
+ 1829 ?        S      0:00 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+ 1813 ?        Sl     0:00 /usr/lib/gvfs//gvfs-fuse-daemon -f /home/koval/.gvfs
+ 1811 ?        S      0:00 /usr/lib/gvfs/gvfsd
+ 1793 ?        Ss     0:20 //bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+ 1792 ?        S      0:00 /usr/bin/dbus-launch --exit-with-session gnome-session --session=ubuntu
+ 1738 ?        Sl     0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ f === Родитель породился
+ f === FATHER PARAM: pid = 5619, ppid = 3323
+ f === Родитель порождает потомка
+ f === Родитель выполняется...
+ f === Вывод команды ps:
+ f === Завершаем работу родителя

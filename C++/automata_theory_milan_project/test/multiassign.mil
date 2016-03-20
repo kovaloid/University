@@ -1,0 +1,8 @@
+BEGIN
+	a:=x:=3;
+    i := b := c := d := a := f := g := a + 2;
+	WRITE(i);
+	WRITE(a);
+	WRITE(f);
+	WRITE(c)
+END

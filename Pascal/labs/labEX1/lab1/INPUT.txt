@@ -1,0 +1,10 @@
+Sofa          6500 rub.
+Table         7300 rub.
+Chair         3500 rub.
+Pen           0060 rub.
+Pencil        0055 rub.
+Eraser        0025 rub.
+Sharpener     0030 rub.
+Recorder      8400 rub.
+Player        4750 rub.
+Case          0250 rub.  

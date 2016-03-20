@@ -1,0 +1,64 @@
+TTF (msec): 	1720.0
+
+1)
+Longitude: 	-51.3
+Latitude: 	-131.34
+Altitude: 	-15878.4
+2)
+Longitude: 	-51.3
+Latitude: 	-131.34
+Altitude: 	168736.51
+3)
+Longitude: 	-51.3
+Latitude: 	-131.34
+Altitude: 	135182.08
+4)
+Longitude: 	-51.3
+Latitude: 	-131.34
+Altitude: 	135182.08
+5)
+Longitude: 	-52.98
+Latitude: 	-131.34
+Altitude: 	151959.3
+6)
+Longitude: 	-52.98
+Latitude: 	-131.34
+Altitude: 	17741.57
+7)
+Longitude: 	-51.3
+Latitude: 	-129.67
+Altitude: 	286177.02
+8)
+Longitude: 	-51.3
+Latitude: 	-129.67
+Altitude: 	420394.75
+9)
+Longitude: 	-49.62
+Latitude: 	-129.67
+Altitude: 	386840.32
+10)
+Longitude: 	-47.94
+Latitude: 	-129.67
+Altitude: 	621721.34
+11)
+Longitude: 	-47.94
+Latitude: 	-129.67
+Altitude: 	504280.83
+12)
+Longitude: 	-47.94
+Latitude: 	-129.67
+Altitude: 	370063.1
+13)
+Longitude: 	-47.94
+Latitude: 	-129.67
+Altitude: 	252622.59
+14)
+Longitude: 	-47.94
+Latitude: 	-129.67
+Altitude: 	135182.08
+15)
+Longitude: 	-47.94
+Latitude: 	-129.67
+Altitude: 	185513.73
+
+CEP (km): 		215.220119384694

@@ -1,0 +1,402 @@
+$date
+     Nov 15, 2012       12:58:07
+$end
+
+$version
+              SystemC 2.3.0-ASI --- Oct 30 2012 17:00:48
+$end
+
+$timescale
+     1 ps
+$end
+
+$scope module SystemC $end
+$var wire    1  aaa  clk       $end
+$var wire    1  aab  rst       $end
+$var wire    1  aac  ctr_clk       $end
+$var wire    4  aad  ctr_val [3:0]  $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+1aaa
+1aab
+0aac
+b0 aad
+$end
+
+#1
+0aab
+
+#3
+0aaa
+
+#5
+1aaa
+
+#6
+1aac
+b1 aad
+
+#8
+0aaa
+
+#10
+1aaa
+0aac
+
+#11
+1aac
+b10 aad
+
+#13
+0aaa
+
+#15
+1aaa
+0aac
+
+#16
+1aac
+b11 aad
+
+#18
+0aaa
+
+#20
+1aaa
+0aac
+
+#21
+1aac
+b100 aad
+
+#23
+0aaa
+
+#25
+1aaa
+0aac
+
+#26
+1aac
+b101 aad
+
+#28
+0aaa
+
+#30
+1aaa
+0aac
+
+#31
+1aac
+b110 aad
+
+#33
+0aaa
+
+#35
+1aaa
+0aac
+
+#36
+1aac
+b111 aad
+
+#38
+0aaa
+
+#40
+1aaa
+0aac
+
+#41
+1aac
+b1000 aad
+
+#43
+0aaa
+
+#45
+1aaa
+0aac
+
+#46
+1aac
+b1001 aad
+
+#48
+0aaa
+
+#50
+1aaa
+0aac
+
+#51
+1aac
+b1010 aad
+
+#53
+0aaa
+
+#55
+1aaa
+0aac
+
+#56
+1aac
+b1011 aad
+
+#58
+0aaa
+
+#60
+1aaa
+0aac
+
+#61
+1aac
+b1100 aad
+
+#63
+0aaa
+
+#65
+1aaa
+0aac
+
+#66
+1aac
+b1101 aad
+
+#68
+0aaa
+
+#70
+1aaa
+0aac
+
+#71
+1aac
+b1110 aad
+
+#73
+0aaa
+
+#75
+1aaa
+0aac
+
+#76
+1aac
+b1111 aad
+
+#78
+0aaa
+
+#80
+1aaa
+0aac
+
+#81
+1aac
+b0 aad
+
+#83
+0aaa
+
+#85
+1aaa
+0aac
+
+#86
+1aac
+b1 aad
+
+#88
+0aaa
+
+#90
+1aaa
+0aac
+
+#91
+1aac
+b10 aad
+
+#93
+0aaa
+
+#95
+1aaa
+0aac
+
+#96
+1aac
+b11 aad
+
+#98
+0aaa
+
+#100
+1aaa
+0aac
+
+#101
+1aac
+b100 aad
+
+#103
+0aaa
+
+#105
+1aaa
+0aac
+
+#106
+1aac
+b101 aad
+
+#108
+0aaa
+
+#110
+1aaa
+0aac
+
+#111
+1aac
+b110 aad
+
+#113
+0aaa
+
+#115
+1aaa
+0aac
+
+#116
+1aac
+b111 aad
+
+#118
+0aaa
+
+#120
+1aaa
+0aac
+
+#121
+1aac
+b1000 aad
+
+#123
+0aaa
+
+#125
+1aaa
+0aac
+
+#126
+1aac
+b1001 aad
+
+#128
+0aaa
+
+#130
+1aaa
+0aac
+
+#131
+1aac
+b1010 aad
+
+#133
+0aaa
+
+#135
+1aaa
+0aac
+
+#136
+1aac
+b1011 aad
+
+#138
+0aaa
+
+#140
+1aaa
+0aac
+
+#141
+1aac
+b1100 aad
+
+#143
+0aaa
+
+#145
+1aaa
+0aac
+
+#146
+1aac
+b1101 aad
+
+#148
+0aaa
+
+#150
+1aaa
+0aac
+
+#151
+1aac
+b1110 aad
+
+#153
+0aaa
+
+#155
+1aaa
+0aac
+
+#156
+1aac
+b1111 aad
+
+#158
+0aaa
+
+#160
+1aaa
+0aac
+
+#161
+1aac
+b0 aad
+
+#163
+0aaa
+
+#165
+1aaa
+0aac
+
+#166
+1aac
+b1 aad
+
+#168
+0aaa
+
+#170
+1aaa
+
