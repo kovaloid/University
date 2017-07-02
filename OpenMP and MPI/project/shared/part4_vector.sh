@@ -1,0 +1,1 @@
+g++ -O2 -ftree-vectorize -march=native -ftree-vectorizer-verbose=5 course.cpp -o labV
